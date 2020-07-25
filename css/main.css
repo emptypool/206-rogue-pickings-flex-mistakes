@@ -1,0 +1,270 @@
+html {
+	font-size: 16px;
+	}
+
+	body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	max-width: 40%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.8em;
+}
+h2 {
+    font-size: 1.4em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4 {
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+  padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+
+header h1 {
+	border-bottom: 3px solid #77a466;
+	margin: 0;
+	padding: 24px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	padding: 5px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 10px 0;
+	list-style: none;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 10px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color:#77a466;
+	justify-content: center;
+	align-items: center;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	width: 100%;
+	margin: 0 auto;
+  justify-content: center;
+	align-items: center;
+}
+
+.main-image {
+	height: auto;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+}
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eee;
+}
+
+.section-one h4 {
+	padding: 10px 0px;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 0px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0px;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.4em;
+	padding: inherit;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.4em;
+	padding: inherit;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	width: 100%;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 1em;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px ) {
+  header {
+		width: 100%;
+		border-bottom: 3px solid #77a466;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bottom-section {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+	  justify-content: space-between;
+		align-items: baseline;
+	}
+
+	.section-one h4 {
+		padding: 10px 0px;
+	}
+
+	.section-two h4,
+	.section-three h4 {
+		padding: 10px 0px;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		padding: 0 10px;
+		height: auto;
+		border-top: 1px solid #eee;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+
+	footer {
+		width: 100%;
+		border-top: 3px solid #eee;
+		margin: 0 auto;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+	.container {
+		max-width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header {
+		width: 100%;
+		border-bottom: 3px solid #77a466;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header nav ul li {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1em;
+		margin: 0;
+		padding: 0;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header nav ul li a {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1em;
+		padding: 10px 0;
+		justify-content: center;
+		align-items: center;
+	}
+}
